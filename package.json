@@ -1,0 +1,26 @@
+{
+  "name": "dh-guelph-2023",
+  "version": "1.0.0",
+  "description": "DH @ Guelph Course (2023)",
+  "main": ".eleventy.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/projectEndings/dh-guelph-2023.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/projectEndings/dh-guelph-2023/issues"
+  },
+  "homepage": "https://github.com/projectEndings/dh-guelph-2023#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "markdown-it": "^13.0.1"
+  }
+}
