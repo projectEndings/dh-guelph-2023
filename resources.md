@@ -6,7 +6,9 @@ layout: base
 
 *DHQ* Special Cluster on Project Resiliency
 
+{% bibliography %}
 ## Endings
+
 Carlin, Claire. “Endings: Concluding, Archiving, and Preserving Digital Projects for Long-Term Usability.” *KULA*, vol. 2, no. 1, 2018. https://doi.org/10.5334/kula.35
 
 Czaykowska-Higgins, Ewa, Martin Holmes, and Sarah Kell. “Using TEI for an Endangered Language Lexical Resource: The Nxaʔamxcín Database-Dictionary Project.” *Language Documentation & Conservation*, vol. 8, 2014, pp. 1–37. http://hdl.handle.net/10125/4604
@@ -37,6 +39,7 @@ Rockwell, Geoffrey, Shawn Day, Joyce Yu, and Maureen Engel. “Burying Dead Proj
 Stapelfeldt, Krista, Sukhvir Khera, Natkeeran Ledchumykanthan, Lara Gomez, Erin Liu, and Sonia Dhaliwal. “Strategies for Preserving Digital Scholarship / Humanities Projects.” *The Code4Lib Journal*, no. 53, May 2022. https://journal.code4lib.org/articles/16370
 
 Warwick, Claire. “Interfaces, Ephemera, and Identity: A Study of the Historical Presentation of Digital Humanities Resources.” *Digital Scholarship in the Humanities*, vol. 35, no. 4, Dec. 2022, pp. 944–971. https://doi.org/10.1093/llc/fqz081.
+{% endbibliography %}
 
 ## Digital Projects
 The Map of Early Modern London (https://mapoflondon.uvic.ca/editions)

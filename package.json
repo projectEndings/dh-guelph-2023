@@ -7,7 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "open -a \"Google Chrome\" http://localhost:8080/dh-guelph-2023/ && npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "markdown-it": "^13.0.1"
+  },
+  "dependencies": {
+    "html-validate": "^7.15.1"
   }
 }
