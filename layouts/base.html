@@ -3,24 +3,19 @@
 {% if id == '' %}
     {% assign id = 'index' %}
 {% endif %}
+{% assign metatitle = 'Endings Course' %}
+{% if title %}
+    {% assign metatitle = metatitle | prepend: " • " | prepend: title %}
+{% endif %}
+{% assign metadesc = 'Endings Course' %}
+{% if desc %}
+    {% assign metadesc = desc %}
+{% endif %}
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" id="{{ id }}">
 <head>
-    
-    {% assign metatitle = 'Endings Course' %}
-    {% if title %}
-        {% assign metatitle = metatitle | prepend: " • " | prepend: title %}
-    {% endif %}
-    
-    {% assign metadesc = 'Endings Course' %}
-    {% if desc %}
-        {% assign metadesc = desc %}
-    {% endif %}
-    
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    
     <title>{{- metatitle -}}</title>
-    
     <meta name="description" content="{{- metadesc -}}"/>
     <meta property="og:title" content="{{-metatitle-}}"/>
     <meta property="og:url" content="{{ page.url }}"/>
@@ -42,7 +37,6 @@
         </nav>
     </header>
     <main>
-      
         <article>
             {{content}}  
         </article>

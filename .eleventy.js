@@ -1,35 +1,15 @@
-const { HtmlValidate, Reporter, formatterFactory } = require('html-validate');
+const validateHTML = require('./validate.js');
 
-async function validateHTML({results}){
-    const validator = new HtmlValidate({
-        // Validate against standard (aka VNU) schema
-        extends: ["html-validate:standard", "html-validate:a11y"],
-        rules: {
-            "void-content": 0
-        }
+function softBreakLinks(content) {
+    if (!(/<a[^>]+>[^>]+\//gi.test(content))) {
+        return content;
+    };
+    let newContent = content.replace(/(<a[^>]+>)([^<]+)(<)/gi, function (match, g1, g2, g3) {
+        let fixed = g2.replace(/([^\/]\/)/gi, '$1<wbr/>');
+        return `${g1}${fixed}${g3}`;
     });
-    const files = results.filter(r => r.outputPath.match(/\.html$/gi));
-    const allReports = files.map(file => {
-        return validator.validateFile(file.outputPath);
-    });
-    const report = Reporter.merge(allReports);
-    if (!report.valid){
-        const formatter = formatterFactory("stylish");
-        console.error(formatter(report.results));
-        throw new Error('validation error');
-    }
-}
-
-
-
-
-/**
- * Function to validate HTML using VNU inspired
- * by https://github.com/matt-auckland/eleventy-plugin-html-validate
- * @param results
- */
-
-
+    return newContent;
+};
 
 module.exports = function(eleventyConfig) {
     const markdownIt = require('markdown-it');
@@ -52,16 +32,8 @@ module.exports = function(eleventyConfig) {
         return md.render(string)
     });
     eleventyConfig.setLibrary('md', md);
-    eleventyConfig.addTransform('wbr', function(content){
-        if (!(/<a[^>]+>[^>]+\//gi.test(content))){
-            return content;
-        };
-        let newContent = content.replace(/(<a[^>]+>)([^<]+)(<)/gi, function(match, g1, g2, g3){
-            let fixed = g2.replace(/([^\/]\/)/gi,'$1<wbr/>');
-            return `${g1}${fixed}${g3}`;
-        });
-        return newContent;
-    });
+    eleventyConfig.addTransform('wbr', softBreakLinks);
+
     for (const code in shortcodes){
         eleventyConfig.addPairedShortcode(code, shortcodes[code]);
     }
