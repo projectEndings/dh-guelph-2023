@@ -4,5 +4,5 @@ DH @ Guelph Course (2023)
 ## How to Build
 
 ```
-npm run build
+./build.sh
 ```
