@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../sch/dh-guelph.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../sch/dh-guelph.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="day2">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Day Two</title>
+         </titleStmt>
+         <publicationStmt copyOf="../sch/dh-guelph.odd#publicationStmt">
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <listEvent>
+            <event when="2023-05-11">
+               <label>Day Two</label>
+               <event type="morning">
+                  <label>Data, Preservation, Loss</label>
+                  <linkGrp type="furtherReading">
+                     <ptr target="bibl:Cummings2023"/>
+                     <ptr target="bibl:Diamond2023"/>
+                     <ptr target="bibl:Earhart2015"/>
+                     <ptr target="bibl:Stapelfeldt2022"/>
+                  </linkGrp>
+                  <event start="09:00" end="10:00">
+                     <ab>
+                        <list>
+                           <item><ref type="presentation">Hosting, Keeping, and Archiving Projects</ref></item>
+                        </list>
+                     </ab>
+                  </event>
+                  <event start="10:00" end="10:45">
+                     <ab>
+                        <list>
+                           <item><ref type="activity">Determing what is already preserved, where it lives, and whether it works</ref></item>
+                        </list>
+                     </ab>
+                  </event>
+                  <event start="10:45" end="11:00">
+                     <label>Break</label>
+                  </event>
+                  <event start="11:00" end="12:00">
+                     <ab>
+                        <list>
+                           <item><ref type="presentation">Potential failure points and hallmarks of projects that have survived</ref></item>
+                        </list>
+                     </ab>
+                  </event>
+               </event>
+               
+               <event type="afternoon">
+                  <label>Documentation and Release Management</label>
+                  <linkGrp type="furtherReading">
+                     <ptr target="bibl:Broyles2020"/>
+                     <ptr target="bibl:Bleier2021"/>
+                     <!--<ptr target="bibl:Wilson2023"/>-->
+                     <!--<ptr target="bibl:Warwick2018"/>-->
+                  </linkGrp>
+                  <event start="13:30" end="14:30">
+                     <ab>
+                        <list>
+                           <item><ref type="presentation">Documenting Your Decisions</ref></item>
+                           <item><ref type="activity">Documenting Your Action Plan</ref></item>
+                        </list>
+                     </ab>
+                  </event>
+                  <event start="14:30" end="14:40">
+                     <label>Break</label>
+                  </event>
+                  <event start="14:40" end="16:30">
+                     <ab>
+                        <list>
+                           <item><ref type="presentation">Release Management: What is a Release and Using Releases to Stick to a Project Plan</ref></item>
+                           <item><ref type="activity">Choice of three activities: Project Plan, Release Plan, or Quadrants. Pick the one that is most appropriate for your project phase.</ref></item>
+                        </list>
+                     </ab>
+                  </event>
+               </event>
+            </event>
+         </listEvent>
+      </body>
+  </text>
+</TEI>

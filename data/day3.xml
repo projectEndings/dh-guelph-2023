@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../sch/dh-guelph.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../sch/dh-guelph.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="day3">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Day Three</title>
+         </titleStmt>
+         <publicationStmt copyOf="../sch/dh-guelph.odd#publicationStmt">
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <listEvent>
+            <event when="2023-05-12">
+               <label>Day Three</label>
+               <event type="morning">
+                  <label>Processing and Products—Doing Things with Data</label>
+                  <linkGrp type="furtherReading">
+                     <ptr target="bibl:Otis2023"/>
+                     <ptr target="bibl:RisamGil2022"/>
+                     <ptr target="bibl:Crompton2023"/>
+                     <ptr target="bibl:Pierazzo2019"/>
+                  </linkGrp>
+                  <event start="09:00" end="10:00">
+                     <ab>
+                        <list>
+                           <item><ref type="presentation">What are Static Sites?</ref></item>
+                           <item><ref type="activity">Investigating graceful failure: What happens when Javascript is turned off?</ref></item>
+                           
+                        </list>
+                     </ab>
+                  </event>
+                  <event start="10:00" end="10:15">
+                     <label>Break</label>
+                  </event>
+                  <event start="10:15" end="11:00">
+                     <ab>
+                        <list>
+                           <item><ref type="presentation">Digital Dependencies, or Hell is Other Servers</ref></item>
+                           <item><ref type="activity">Enumerating your dependencies: On whom do you depend?</ref></item>
+                        </list>
+                     </ab>
+                  </event>
+                  <event start="11:00" end="12:00">
+                     <ab>
+                        <list>
+                           <item><ref type="presentation">How to Talk to Your Developer and Your Archivist About Your Endings Plan</ref></item>
+                        </list>
+                     </ab>  
+                   </event>
+               </event>
+               <event type="afternoon">
+                  <label>Getting Ready to End Your Project</label>
+                  <linkGrp>
+                     <ptr target="bibl:GoddardSeeman2019"/>
+                  </linkGrp>
+                  <event start="13:30" end="14:45">
+                     <ab>
+                        <list>
+                           <item>Wrap-up discussion and review of your Endings plan</item>
+                           <item>Finalize your Project Plan, Release Plan, or Quadrants for the DH@Guelph Showcase</item>
+                        </list>
+                     </ab>
+                  </event>
+                  <event start="15:00" end="16:30">
+                     <label>DH@Guelph Wrap-up / Showcase</label>
+                  </event>
+               </event>
+            </event>
+         
+         </listEvent>
+      </body>
+  </text>
+</TEI>

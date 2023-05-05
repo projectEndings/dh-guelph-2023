@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../sch/dh-guelph.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../sch/dh-guelph.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="resources">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Resources</title>
+         </titleStmt>
+         <publicationStmt copyOf="../sch/dh-guelph.odd#publicationStmt">
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <listBibl>
+            <head>Selections from DHQ special issue on Project Resiliency (forthcoming)</head>
+            <bibl xml:id="HolmesJenstadHuculak2023">Holmes, Martin, Janelle Jenstad, and J. Matthew Huculak. <title level="a">Introduction to Special Issue: Project Resiliency in the Digital Humanities</title>. </bibl>
+            <bibl xml:id="Battershill2023">Battershill, Claire. <title level="a">The Stories We Tell: Project Narratives, Project Endings, and the Affective Value of Collaboration</title>. <title level="j">Digital Humanities Quarterly</title>, forthcoming.</bibl>
+            <bibl xml:id="Crompton2023">Crompton, Constance. <title level="a"><q>No Boutique or Fashionable Technologies</q>: Project Development, Mentorship, and Sustainability in an Innovation-First World</title>. <title level="j">Digital Humanities Quarterly</title>, forthcoming.</bibl>
+            <bibl xml:id="Cummings2023">Cummings, James. <title level="a">Academics Retire and Servers Die: Adventures in the Hosting and Storage of Digital Humanities Projects</title>. <title level="j">Digital Humanities Quarterly</title>, forthcoming.</bibl>
+            <bibl xml:id="Diamond2023">Diamond, Sara. <title level="a">The Dangers of Disappearance, the Opportunities of Recovery</title>. <title level="j">Digital Humanities Quarterly</title>, forthcoming.</bibl>
+            <bibl xml:id="Thieberger2023">Thieberger, Nick. <title level="a">Doing it for Ourselves: The New Archive Built by and Responsive to the Researcher</title>. <title level="j">Digital Humanities Quarterly</title>, forthcoming.</bibl>
+            <bibl xml:id="Otis2023">Otis, Jessica. <title level="a"><q>Follow the Money?</q>: Funding and Digital Sustainability</title>. <title level="j">Digital Humanities Quarterly</title>, forthcoming.</bibl>
+            <bibl xml:id="HolmesTakeda2023">Martin Holmes, and Joey Takeda. <title level="a">From Tamagotchis to Pet Rocks: On Learning to Love Simplicity through the Endings Principles</title>. <title level="j">Digital Humanities Quarterly</title>, forthcoming.</bibl>
+            <bibl xml:id="CobleKarlin2023">Coble, Zach, and Jojo Karlin. <title level="a">Reference Rot in the Digital Humanities Literature: An Analysis of Citations Containing Website Links in DHQ</title>. <title level="j">Digital Humanities Quarterly</title>, forthcoming.</bibl>
+         </listBibl>
+         
+         <listBibl>
+            <head>Additional and Supplementary Readings</head>
+            <bibl xml:id="Bleier2021"><author>Bleier, Roman</author>. <title level="a">How to Cite this Digital Edition?</title> <title level="j">Digital Humanities Quarterly</title>, vol. 15, no. 3, <date>2021</date>. <ptr target="http://www.digitalhumanities.org/dhq/vol/15/3/000561/000561.html"/></bibl>
+            
+            <bibl xml:id="Broyles2020"><author>Broyles, Paul A.</author> <title level="a">Digital Editions and Version Numbering</title>. <title level="j">Digital Humanities Quarterly</title>, vol. 14, no. 2, <date>2020</date>. <ptr target="http://www.digitalhumanities.org/dhq/vol/14/2/000455/000455.html"/></bibl>
+            
+            <bibl xml:id="Carlin2018">Carlin, Claire. <title level="a">Endings: Concluding, Archiving, and Preserving Digital Projects for Long-Term Usability</title>. <title level="j">KULA</title>, vol. 2, no. 1, 2018. <ptr target="https://doi.org/10.5334/kula.35"/></bibl>
+            
+            <bibl xml:id="Christen2012"><author>Christen, Kimberly</author>. <title level="a">Does Information Really Want to be Free? Indigenous Knowledge Systems and the Question of Openness</title>. <title level="j">International Journal of Communication</title>, vol. 6, 2012, pp. 2870–2893. <ptr target="https://ijoc.org/index.php/ijoc/article/view/1618"/></bibl>
+            
+            <bibl xml:id="Czaykowska-Higgins2014">Czaykowska-Higgins, Ewa, Martin Holmes, and Sarah Kell. <title level="a">Using TEI for an Endangered Language Lexical Resource: The Nxaʔamxcín Database-Dictionary Project</title>. <title level="j">Language Documentation &amp; Conservation</title>, vol. 8, 2014, pp. 1–37. <ptr target="http://hdl.handle.net/10125/4604"/></bibl>
+            
+            <bibl xml:id="Earhart2015">Earhart, Amy. <title level="a">What’s In and What’s Out?</title> <title level="m">Traces of the Old, Uses of the New: The Emergence of Digital Literary Studies</title>, University of Michigan Press, 2015, pp. 62–89. <ptr target="https://doi.org/10.1353/book.43167"/></bibl>
+            <bibl xml:id="GoddardSeeman2019">Goddard, Lisa, and Dean Seeman. <title level="a">Negotiating Sustainability: Building Digital Humanities Projects that Last</title>. <title level="m">Doing More Digital Humanities: Open Approaches to Creation, Growth, and Development</title>, edited by Constance Crompton, Richard J. Lane, and Ray Siemens, Routledge, 2019, pp. 38–57.</bibl>
+            <bibl xml:id="Pierazzo2019">Pierazzo, Elena. <title level="a">What Future for Digital Scholarly Editions? From Haute Couture to Prêt-à-Porter</title>. <title level="j">International Journal of Digital Humanities</title>, vol. 1, no. 2, July 2019. <ptr target="https://doi.org/10.1007/s42803-019-00019-3."/></bibl>
+            
+            <bibl xml:id="RisamGil2022">Risam, Roopika, and Alex Gil. <title level="a">Introduction: The Questions of Minimal Computing</title>. <title level="j">Digital Humanities Quarterly</title>, vol. 16, no. 2, 2022. <ptr target="https://digitalhumanities.org/dhq/vol/16/2/000646/000646.html"/></bibl>
+            
+            <bibl xml:id="Rockwelletal2014">Rockwell, Geoffrey, Shawn Day, Joyce Yu, and Maureen Engel. <title level="a">Burying Dead Projects: Depositing the Globalization Compendium</title>. <title level="j">Digital Humanities Quarterly</title>, vol. 8, no. 2, 2014. <ptr target="https://digitalhumanities.org/dhq/vol/8/2/000179/000179.html"/></bibl>
+            
+            <bibl xml:id="Stapelfeldt2022">Stapelfeldt, Krista, Sukhvir Khera, Natkeeran Ledchumykanthan, Lara Gomez, Erin Liu, and Sonia Dhaliwal. <title level="a">Strategies for Preserving Digital Scholarship / Humanities Projects</title>. <title level="j">The Code4Lib Journal</title>, no. 53, May 2022. <ptr target="https://journal.code4lib.org/articles/16370"/></bibl>
+            
+            <bibl xml:id="Warwick2022">Warwick, Claire. <title level="a">Interfaces, Ephemera, and Identity: A Study of the Historical Presentation of Digital Humanities Resources</title>. <title level="j">Digital Scholarship in the Humanities</title>, vol. 35, no. 4, Dec. 2022, pp. 944–971. <ptr target="https://doi.org/10.1093/llc/fqz081."/></bibl>
+
+       
+            
+            
+         </listBibl>
+         
+      </body>
+  </text>
+</TEI>

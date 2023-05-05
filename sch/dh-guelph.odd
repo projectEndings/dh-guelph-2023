@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" 
+  xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DH@Guelph 2023: How to End Your Project — Course Schedule Customization</title>
+        <author ref="https://github.com/jenstad">Janelle Jenstad</author>
+        <author ref="https://github.com/joeytakeda">Joey Takeda</author>
+        <author ref="https://github.com/projectEndings">The Endings Project</author>
+      </titleStmt>
+      <publicationStmt xml:id="publicationStmt">
+        <distributor>The Endings Project</distributor>
+        <availability status="free">
+          <licence target="https://creativecommons.org/licenses/by-nc/4.0/"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Born digital.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>This is a small TEI customization for the DH@Guelph workshops.</p>
+      <schemaSpec source="tei:4.6.0" ident="oddex1" start="TEI">
+        <moduleRef key="tei"/>
+        <moduleRef key="core"/>
+        <moduleRef key="analysis"/>
+<!--        <moduleRef key="certainty"/>
+        <moduleRef key="corpus"/>
+        <moduleRef key="dictionaries"/>
+        <moduleRef key="drama"/>-->
+        <moduleRef key="figures"/>
+<!--        <moduleRef key="gaiji"/>-->
+        <moduleRef key="header"/>
+<!--        <moduleRef key="iso-fs"/>-->
+        <moduleRef key="linking"/>
+<!--        <moduleRef key="msdescription"/>-->
+        <moduleRef key="namesdates"/>
+<!--        <moduleRef key="nets"/>
+        <moduleRef key="spoken"/>
+        <moduleRef key="tagdocs"/>
+        <moduleRef key="textcrit"/>-->
+        <moduleRef key="textstructure"/>
+<!--        <moduleRef key="transcr"/>
+        <moduleRef key="verse"/>-->
+        
+        <classSpec type="atts" ident="att.datable.custom" mode="delete"/>
+        <classSpec type="atts" ident="att.datable.w3c" mode="delete"/>
+        
+        <elementSpec ident="event" mode="replace">
+          <desc versionDate="2007-08-01" xml:lang="en">contains data relating to any kind of significant event associated with a person, place, or organization.</desc>
+          
+          <classes>
+            <memberOf key="model.eventLike"/>
+          </classes>
+          <content>
+            <alternate>
+              <sequence>
+                <elementRef key="label"/>
+                <elementRef key="linkGrp" minOccurs="0" maxOccurs="1"/>
+                <elementRef key="event" minOccurs="0" maxOccurs="unbounded"/>                 
+              </sequence>
+              <elementRef key="ab"/>
+            </alternate>
+          </content>
+          <attList org="choice">
+            <attDef ident="type" >
+              <valList type="closed">
+                <valItem ident="morning"/>
+                <valItem ident="afternoon"/>
+              </valList>
+            </attDef>
+            <attDef ident="when">
+              <datatype>
+                <dataRef name="date"/>
+              </datatype>
+            </attDef>
+            <attList org="group">
+              <attDef ident="from-iso">
+                <altIdent>start</altIdent>
+                <datatype>
+                  <dataRef name="token" restriction="\d\d:\d\d"/>
+                </datatype>
+              </attDef>
+              <attDef ident="to-iso">
+                <altIdent>end</altIdent>
+                <datatype>
+                  <dataRef name="token" restriction="\d\d:\d\d"/>
+                </datatype>
+              </attDef>
+            </attList>
+          </attList>
+          <listRef>
+            <ptr target="#NDPERSbp"/>
+          </listRef>
+        </elementSpec>
+        
+        <elementSpec ident="ptr" mode="change">
+          <constraintSpec scheme="schematron" mode="add" ident="ptr.targetConstraints">
+            <constraint>
+              <sch:rule context="tei:ptr[@target]">
+                <sch:assert test="matches(@target,'^(https?|bibl|doc):')">ERROR: ptr/@target
+                should either be a url, a bibl:, or a doc:.</sch:assert>
+              </sch:rule>              
+            </constraint>
+          </constraintSpec>
+          <constraintSpec scheme="schematron" mode="add" ident="ptr.targetConstraintsPtrs">
+            <constraint>
+              <sch:rule context="tei:ptr[matches(@target,'^bibl:')]">
+                <sch:let name="path" value="replace(document-uri(/),'[^\\/]+\.xml$', 'resources.xml')"/>
+                <sch:let name="ID" value="substring-after(@target, 'bibl:')"/>
+                <sch:let name="element" value="doc($path)//id($ID)"/>
+                <sch:assert test="$element/self::tei:bibl">
+                  ERROR: <sch:value-of select="$ID"/> does not exist
+                </sch:assert>
+              </sch:rule>
+              
+            </constraint>
+          </constraintSpec>
+          
+        </elementSpec>
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>

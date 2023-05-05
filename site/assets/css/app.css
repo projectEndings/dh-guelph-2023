@@ -1,0 +1,189 @@
+@import 'normalize.css';
+@import '../inter/inter.css';
+
+
+:root {
+    --accent: #2D9CDB;
+    --grey: #444;
+}
+
+html {
+    font-size:  1rem;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    line-height: 1.65;
+    display:flex;
+    flex-direction:column;
+    width:min(52.5rem, 100%);
+    margin:0 auto;
+    padding: 0 3vw;
+    min-height:100vh;
+}
+
+body > *{
+    flex:0;
+    width:100%;
+}
+
+
+.page-header nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2em;
+    margin-top: 0.8rem;
+    font-size:1rem;
+}
+
+.page-header nav a:not(:hover):not(:focus) {
+    color: currentColor;
+    text-decoration: none;
+}
+
+main{
+    width:100%;
+}
+
+article{
+    margin-bottom: 2rem;
+}
+
+details .bibliography{
+    font-size: 0.9rem;
+}
+
+.bibliography > p{
+    margin-left: 2em;
+    text-indent: -2em;
+    margin-bottom: 0;
+}
+
+.bibliography > p + p{
+    margin-top:0.4em;
+}
+
+
+time + time:before{
+    content: "–";
+}
+
+details{
+    padding: 1em;
+    border:1px dashed var(--grey);
+    margin:1em 0;
+    
+}
+
+details > summary{
+    font-weight:bold;
+}
+
+a[data-type]:before{
+    content: attr(data-type) ': ';
+    text-transform:uppercase;
+    color: var(--grey);
+    font-size: 0.9em;
+}
+
+.title.title-m,
+.title.title-j{
+    font-style:italic;
+}
+
+.title.title-a:before{
+    content: '“';
+}
+.title.title-a:not(:has(+ .pcterm)):after{
+    content: '”';
+}
+
+.title-a + .pcterm:after{
+    content: '”';
+}
+
+
+
+footer {
+    text-align: center;
+    margin-bottom: 1em;
+    padding:1em 0;
+    margin-top: 3em;
+    border-top: 1px solid var(--grey);
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    margin-top:auto;
+    font-size: 0.8em;
+}
+
+a[href] {
+    color: var(--accent);
+}
+
+a[aria-current]{
+    border-bottom: 0.2em solid var(--accent);
+    pointer-events: none;
+}
+
+a[href]:hover {
+    text-decoration: none;
+}
+
+a[href]:focus {
+    outline: 2px solid var(--accent);
+    outline-offset: 0.4em;
+}
+
+a:not(.has-image)[href][target='_blank']:after{
+  content: '↗';     
+}
+
+/* Typography */
+p {
+    margin-bottom: 1.15rem;
+ }
+
+h1, h2, h3, h4, h5 {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+h1 {font-size: 3.052em;}
+
+h2 {font-size: 2.441em;}
+
+h3 {font-size: 1.953em;}
+
+h4 {font-size: 1.563em;}
+
+h5, .larger {font-size: 1.25em;}
+
+hgroup{
+    margin-top: 3.052rem;
+    margin-bottom: 1.5rem;
+}
+
+hgroup > h1{
+    margin-top:0;
+    margin-bottom:0;
+}
+
+hgroup > h2{
+    font-size: 1.4em;
+    margin-bottom:0.3em;
+    color: var(--grey);
+    text-transform: uppercase;
+    font-variant: small-caps;
+}
+
+
+
+@media only screen and (max-width: 468px) {
+    .page-header {
+        flex-direction: column;
+    }
+}

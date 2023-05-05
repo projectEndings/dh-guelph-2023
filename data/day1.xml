@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../sch/dh-guelph.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../sch/dh-guelph.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="day1">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Day One</title>
+         </titleStmt>
+         <publicationStmt copyOf="../sch/dh-guelph.odd#publicationStmt">
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <listEvent>
+            <event when="2023-05-10">
+               <label>Day One</label>
+               <event type="morning">
+                  <label>Introduction to Endings</label>
+                  <linkGrp type="furtherReading">
+                     <ptr target="bibl:HolmesJenstadHuculak2023"/>
+                     <ptr target="bibl:Battershill2023"/>
+                     <ptr target="bibl:Carlin2018"/>
+                  </linkGrp>
+                  <event start="09:00" end="10:00" >
+                     <ab>
+                        <list>
+                           <item>Introduction to the course</item>
+                           <item>
+                              <ref type="handout">Outcomes for the course</ref>
+                           </item>
+                        </list>
+                     </ab>
+                  </event>
+                  <event start="10:00" end="11:20">
+                     <ab>
+                        <list>
+                           <item>Learning about each other's projects</item>
+                           <item><ref type="handout">Ontology of Digital Editions</ref></item>
+                        </list>
+                     </ab>
+                  </event>
+                  <event start="11:20" end="11:25">
+                     <label>Break</label>
+                  </event>
+                  <event start="11:25" end="12:00">
+                     <ab type="presentation">
+                        <title level="a">What Does it Mean to End a Project</title>
+                     </ab>
+                  </event>
+               </event>
+               <event type="afternoon">
+                  <label>Endings Principles / Data</label>
+                  <linkGrp type="furtherReading">
+                     <ptr target="bibl:HolmesTakeda2023"/>
+                     <!--      <ptr target="bibl:Anderson"/>-->
+                     <ptr target="bibl:CobleKarlin2023"/>
+                     <!--                <ptr target="bibl:Warwick"/>-->
+                     <ptr target="bibl:Thieberger2023"/>
+                     <!--                <ptr target="bibl:AndersonChristen2021"/>-->
+                  </linkGrp>
+                  <event start="13:30" end="14:30">
+                     <ab>
+                        <list>
+                           <item><ref type="presentation">The Endings Principles: Data, Documentation, Processing, Products, Release Management</ref></item>
+                           <item><ref type="handout">Your Endings Plan</ref> (we will work on this for the rest of the course)</item>
+                        </list>
+                     </ab>
+                  </event>
+                  <event start="14:30" end="14:45">
+                     <label>Break</label>
+                  </event>
+                  <event start="14:45" end="16:30">
+                     <ab>
+                        <list>
+                           <item><ref type="activity">What needs to be preserved?</ref></item>
+                        </list>
+                     </ab>  
+                  </event>
+               </event>
+            </event>
+            
+            
+       
+         
+         </listEvent>
+      </body>
+  </text>
+</TEI>
