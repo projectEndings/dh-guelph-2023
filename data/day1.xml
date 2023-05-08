@@ -50,8 +50,8 @@
                      <label>Break</label>
                   </event>
                   <event start="11:25" end="12:00">
-                     <ab type="presentation">
-                        <title level="a">What Does it Mean to End a Project</title>
+                     <ab>
+                        <ref type="presentation"><title level="a">What Does it Mean to End a Project</title></ref>
                      </ab>
                   </event>
                </event>

@@ -181,7 +181,7 @@
                         <span class="pcterm"><xsl:value-of select="."/></span>
                     </xsl:matching-substring>
                     <xsl:non-matching-substring>
-                        <xsl:value-of select="."/>
+                        <xsl:sequence select="."/>
                     </xsl:non-matching-substring>
                 </xsl:analyze-string>
             </xsl:otherwise>

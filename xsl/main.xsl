@@ -23,7 +23,7 @@
     
     <xsl:param name="pd" select="substring-before(static-base-uri(),'/xsl/')"/>
     
-    <xsl:strip-space elements="*"/>
+   
     
     <xsl:variable name="template" select="document($pd || '/site/base.html?strip-space=yes')" as="document-node()"/>
     <xsl:variable name="data" select="collection( $pd || '/data?select=*.xml')" as="document-node()+"/>   

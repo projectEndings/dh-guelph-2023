@@ -91,10 +91,21 @@ a[data-type]:before{
 .title.title-j{
     font-style:italic;
 }
-
 .title.title-a:before{
     content: '“';
 }
+
+.title.title-a:after{
+   content: '”';
+}
+
+/* Hide warning block in case :has() support is detected */
+@supports selector(:has(*)) {
+
+.title.title-a:after{
+    content:unset;
+}
+
 .title.title-a:not(:has(+ .pcterm)):after{
     content: '”';
 }
@@ -102,6 +113,11 @@ a[data-type]:before{
 .title-a + .pcterm:after{
     content: '”';
 }
+
+
+}
+
+
 
 
 
