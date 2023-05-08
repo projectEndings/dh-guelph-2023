@@ -118,7 +118,23 @@
         </details>
     </xsl:template>
     
-  
+    <xsl:template match="div" mode="tei">
+        <section>
+            <xsl:apply-templates mode="#current"/>
+        </section>
+    </xsl:template>
+    
+    <xsl:template match="body/div/head" mode="tei">
+        <h3>
+            <xsl:apply-templates mode="#current"/>
+        </h3>
+    </xsl:template>
+    
+    <xsl:template match="div/div/head" mode="tei">
+        <h4>
+            <xsl:apply-templates mode="#current"/>
+        </h4>
+    </xsl:template>
     
     <xsl:template match="linkGrp/ptr" mode="tei">
         <xsl:variable name="ID" select="substring-after(@target,'bibl:')"/>
@@ -148,7 +164,7 @@
         </p>
     </xsl:template>
     
-    <xsl:template match="bibl/title" mode="tei">
+    <xsl:template match="title" mode="tei">
         <span class="title title-{@level}">
             <xsl:apply-templates mode="#current"/>
         </span>

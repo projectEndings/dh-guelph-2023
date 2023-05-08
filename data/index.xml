@@ -18,11 +18,26 @@
   </teiHeader>
   <text>
       <body>
-         <p>Few digital projects are finished and archived; some are eventually abandoned or neglected, while others fail and disappear. What do we need to do to ensure that our digital projects, begun with the best intentions and often with generous funding, produce coherent, consistent, and complete products that can be accessible and functional for decades to come? This three-day course is intended for people who are engaged in a digital project that is nearing completion, people who worry that their project will never end, people who want to deposit their project in a library or digital archive, and people who are planning ahead to end and archive a project.</p>
-         
-         <p>Using case-studies of both successfully preserved and lost projects, this workshop outlines best practices and concrete approaches for achieving Endings-compliance. We will ask what it means to end a project, what should remain “on the shelf” in 20 years, and what happens when we run projects through existing archiving tools. We address the difference between archivable data and an archivable project, and the importance of preserving the latter as well as the former despite the challenges of digital dependencies. We cover practical steps to “staticize” various types of site, ask critical questions about interface, and discuss best practices for design. The course concludes with a documentation exercise that will help participants identify the strengths and weaknesses of an edition’s documentation.</p> 
-         
-         <p>The course, taught by a humanist and developer from the Endings Team (UVic and SFU), will include lectures, workshops, demonstrations, hands-on exercises, discussion, and peer feedback. Participants will leave with a detailed Endings-compliant project plan for a specific project version, with timelines, a list of requirements, potential outputs, and an archiving strategy to plan, develop, build, release, and archive your digital project in maximally sustainable ways.</p>
+         <div>
+            <p>Few digital projects are finished and archived; some are eventually abandoned or neglected, while others fail and disappear. What do we need to do to ensure that our digital projects, begun with the best intentions and often with generous funding, produce coherent, consistent, and complete products that can be accessible and functional for decades to come? This three-day course is intended for people who are engaged in a digital project that is nearing completion, people who worry that their project will never end, people who want to deposit their project in a library or digital archive, and people who are planning ahead to end and archive a project.</p>
+            
+            <p>Using case-studies of both successfully preserved and lost projects, this workshop outlines best practices and concrete approaches for achieving Endings-compliance. We will ask what it means to end a project, what should remain “on the shelf” in 20 years, and what happens when we run projects through existing archiving tools. We address the difference between archivable data and an archivable project, and the importance of preserving the latter as well as the former despite the challenges of digital dependencies. We cover practical steps to “staticize” various types of site, ask critical questions about interface, and discuss best practices for design. The course concludes with a documentation exercise that will help participants identify the strengths and weaknesses of an edition’s documentation.</p> 
+            
+            <p>The course, taught by a humanist and developer from the Endings Team (UVic and SFU), will include lectures, workshops, demonstrations, hands-on exercises, discussion, and peer feedback. Participants will leave with a detailed Endings-compliant project plan for a specific project version, with timelines, a list of requirements, potential outputs, and an archiving strategy to plan, develop, build, release, and archive your digital project in maximally sustainable ways.</p>
+         </div>
+         <div>
+            <head>Instructors</head>
+            <div>
+               <head>Janelle Jenstad</head>
+               <p>Professor Janelle Jenstad teaches English, Professional Communication, and Media Studies at the University of Victoria. She is a founding member of <title level="m"><ref target="https://endings.uvic.ca">The Endings Project</ref></title>, for which she continues to work on knowledge mobilization. She is director of both <title level="m"><ref target="https://mapoflondon.uvic.ca">The Map of Early Modern London</ref></title> (MoEML) and <title level="m"><ref target="https://lemdo.uvic.ca">Linked Early Modern Drama Online</ref></title> (LEMDO) and Co-Coordinating Editor of the <title level="m">New Internet Shakespeare Editions</title> and <title level="m">Digital Renaissance Editions</title>. She currently serves on the Text Encoding Initiative (TEI) Technical Council (2020-23) and the Research Board for <ref target="https://lincsproject.ca">LINCS</ref>. For a full list of projects and publications, see <ref target="https://janellejenstad.com">janellejenstad.com</ref>.</p>
+            </div>
+            <div>
+               <head>Joey Takeda</head>
+               <p>Joey Takeda is a Developer in the <ref target="https://dhil.lib.sfu.ca">Digital Humanities Innovation Lab</ref> at Simon Fraser University. He specializes in text encoding and digital editions, digital project preservation and sustainability, minimal computing, and digital exhibits. He holds an MA in English Literature from the University of British Columbia and is currently an MLIS student at the University of Alberta and a member of the Text Encoding Initiative (TEI) Technical Council (2023). Before joining SFU in 2020, he worked as a programmer for a variety of digital humanities projects, including <title level="m"><ref target="https://endings.uvic.ca">The Endings Project</ref></title>, for which he continues, with Martin Holmes, to develop <ref target="https://endings.uvic.ca/staticSearch">staticSearch</ref>, a fully archivable search engine for static websites.
+               </p>
+            </div>
+            
+         </div>
          
       </body>
   </text>
