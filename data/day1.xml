@@ -33,7 +33,7 @@
                         <list>
                            <item>Introduction to the course</item>
                            <item>
-                              <ref type="handout">Outcomes for the course</ref>
+                              <ref type="handout" target="docs/Outcomes_Handout.pdf">Outcomes for the course</ref>
                            </item>
                         </list>
                      </ab>
@@ -42,7 +42,7 @@
                      <ab>
                         <list>
                            <item>Learning about each other's projects</item>
-                           <item><ref type="handout">Ontology of Digital Editions</ref></item>
+                           <item><ref type="handout" target="docs/Ontology.pdf">Ontology of Digital Projects</ref></item>
                         </list>
                      </ab>
                   </event>
@@ -51,7 +51,7 @@
                   </event>
                   <event start="11:25" end="12:00">
                      <ab>
-                        <ref type="presentation"><title level="a">What Does it Mean to End a Project</title></ref>
+                        <ref type="presentation" target="docs/what_does_it_mean_end_project.pdf"><title level="a">What Does it Mean to End a Project</title></ref>
                      </ab>
                   </event>
                </event>
@@ -69,7 +69,7 @@
                      <ab>
                         <list>
                            <item><ref type="presentation">The Endings Principles: Data, Documentation, Processing, Products, Release Management</ref></item>
-                           <item><ref type="handout">Your Endings Plan</ref> (we will work on this for the rest of the course)</item>
+                           <item><ref type="handout">Your Endings Plan</ref> [<ref target="docs/Endings_action_plan.pdf">PDF</ref> | <ref target="docs/Endings_action_plan.docx">Docx</ref>] (we will work on this for the rest of the course)</item>
                         </list>
                      </ab>
                   </event>
