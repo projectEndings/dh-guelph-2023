@@ -27,7 +27,7 @@
             <bibl xml:id="Diamond2023">Diamond, Sara. <title level="a">The Dangers of Disappearance, the Opportunities of Recovery</title>. <title level="j">Digital Humanities Quarterly</title>, forthcoming. <ref target="docs/DHQ_Diamond.pdf">Preprint</ref></bibl>
             <bibl xml:id="Thieberger2023">Thieberger, Nick. <title level="a">Doing it for Ourselves: The New Archive Built by and Responsive to the Researcher</title>. <title level="j">Digital Humanities Quarterly</title>, forthcoming. <ref target="docs/DHQ_Thieberger.pdf">Preprint</ref></bibl>
             <bibl xml:id="Otis2023">Otis, Jessica. <title level="a"><q>Follow the Money?</q>: Funding and Digital Sustainability</title>. <title level="j">Digital Humanities Quarterly</title>, forthcoming. <ref target="docs/DHQ_Otis.pdf">Preprint</ref></bibl>
-            <bibl xml:id="HolmesTakeda2023">Martin Holmes, and Joey Takeda. <title level="a">From Tamagotchis to Pet Rocks: On Learning to Love Simplicity through the Endings Principles</title>. <title level="j">Digital Humanities Quarterly</title>, forthcoming. <ref target="docs/DHQ_Holmes_Takeda.pdf">Preprint</ref></bibl>
+            <bibl xml:id="HolmesTakeda2023">Holmes, Martin, and Joey Takeda. <title level="a">From Tamagotchis to Pet Rocks: On Learning to Love Simplicity through the Endings Principles</title>. <title level="j">Digital Humanities Quarterly</title>, forthcoming. <ref target="docs/DHQ_Holmes_Takeda.pdf">Preprint</ref></bibl>
             <bibl xml:id="CobleKarlin2023">Coble, Zach, and Jojo Karlin. <title level="a">Reference Rot in the Digital Humanities Literature: An Analysis of Citations Containing Website Links in DHQ</title>. <title level="j">Digital Humanities Quarterly</title>, forthcoming. <ref target="docs/DHQ_Coble_Karlin.pdf">Preprint</ref></bibl>
          </listBibl>
          
@@ -44,8 +44,9 @@
             <bibl xml:id="Czaykowska-Higgins2014">Czaykowska-Higgins, Ewa, Martin Holmes, and Sarah Kell. <title level="a">Using TEI for an Endangered Language Lexical Resource: The Nxaʔamxcín Database-Dictionary Project</title>. <title level="j">Language Documentation &amp; Conservation</title>, vol. 8, 2014, pp. 1–37. <ptr target="http://hdl.handle.net/10125/4604"/></bibl>
             
             <bibl xml:id="Earhart2015">Earhart, Amy. <title level="a">What’s In and What’s Out?</title> <title level="m">Traces of the Old, Uses of the New: The Emergence of Digital Literary Studies</title>, University of Michigan Press, 2015, pp. 62–89. <ptr target="https://doi.org/10.1353/book.43167"/></bibl>
-            <bibl xml:id="GoddardSeeman2019">Goddard, Lisa, and Dean Seeman. <title level="a">Negotiating Sustainability: Building Digital Humanities Projects that Last</title>. <title level="m">Doing More Digital Humanities: Open Approaches to Creation, Growth, and Development</title>, edited by Constance Crompton, Richard J. Lane, and Ray Siemens, Routledge, 2019, pp. 38–57.</bibl>
-            <bibl xml:id="Pierazzo2019">Pierazzo, Elena. <title level="a">What Future for Digital Scholarly Editions? From Haute Couture to Prêt-à-Porter</title>. <title level="j">International Journal of Digital Humanities</title>, vol. 1, no. 2, July 2019. <ptr target="https://doi.org/10.1007/s42803-019-00019-3."/></bibl>
+            
+            <bibl xml:id="GoddardSeeman2019">Goddard, Lisa, and Dean Seeman. <title level="a">Negotiating Sustainability: Building Digital Humanities Projects that Last</title>. <title level="m">Doing More Digital Humanities: Open Approaches to Creation, Growth, and Development</title>, edited by Constance Crompton, Richard J. Lane, and Ray Siemens, Routledge, 2019, pp. 38–57. <ptr target="https://dx.doi.org/10.4324/9780429353048-4"/></bibl>
+            <bibl xml:id="Pierazzo2019">Pierazzo, Elena. <title level="a">What Future for Digital Scholarly Editions? From Haute Couture to Prêt-à-Porter</title>. <title level="j">International Journal of Digital Humanities</title>, vol. 1, no. 2, July 2019. <ptr target="https://doi.org/10.1007/s42803-019-00019-3"/></bibl>
             
             <bibl xml:id="RisamGil2022">Risam, Roopika, and Alex Gil. <title level="a">Introduction: The Questions of Minimal Computing</title>. <title level="j">Digital Humanities Quarterly</title>, vol. 16, no. 2, 2022. <ptr target="https://digitalhumanities.org/dhq/vol/16/2/000646/000646.html"/></bibl>
             
@@ -53,7 +54,10 @@
             
             <bibl xml:id="Stapelfeldt2022">Stapelfeldt, Krista, Sukhvir Khera, Natkeeran Ledchumykanthan, Lara Gomez, Erin Liu, and Sonia Dhaliwal. <title level="a">Strategies for Preserving Digital Scholarship / Humanities Projects</title>. <title level="j">The Code4Lib Journal</title>, no. 53, May 2022. <ptr target="https://journal.code4lib.org/articles/16370"/></bibl>
             
-            <bibl xml:id="Warwick2022">Warwick, Claire. <title level="a">Interfaces, Ephemera, and Identity: A Study of the Historical Presentation of Digital Humanities Resources</title>. <title level="j">Digital Scholarship in the Humanities</title>, vol. 35, no. 4, Dec. 2022, pp. 944–971. <ptr target="https://doi.org/10.1093/llc/fqz081."/></bibl>
+            <bibl xml:id="Warwick2022">Warwick, Claire. <title level="a">Interfaces, Ephemera, and Identity: A Study of the Historical Presentation of Digital Humanities Resources</title>. <title level="j">Digital Scholarship in the Humanities</title>, vol. 35, no. 4, Dec. 2022, pp. 944–971. <ptr target="https://doi.org/10.1093/llc/fqz081"/></bibl>
+            
+            <bibl xml:id="Wilson2022">Wilson, Nicola, Claire Battershill, Helena Clarkson, Matthew N. Hannah, Illya Nokhrin, and Elizabeth Wilson Gordon. <title level="a">Digital Critical Archives, Copyright, and Feminist Praxis</title>. <title level="j">Archival Science</title>, vol. 22, no. 3, 2022, pp. 295–317. <ptr target="https://doi.org/10.1007/s10502-021-09384-x"/></bibl>
+            
 
        
             
