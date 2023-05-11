@@ -84,7 +84,7 @@
                      <ab>
                         <list>
                            <item><ref type="presentation">Release Management: What is a Release and Using Releases to Stick to a Project Plan</ref></item>
-                           <item><ref type="activity">Choice of three activities: Project Plan, Release Plan, or Quadrants. Pick the one that is most appropriate for your project phase.</ref></item>
+                           <item><ref type="activity">Choice of three activities: <ref target="docs/Project_Plan_Activity.pdf">Project Plan</ref>, <ref target="docs/Release_Project_Plan_Activity.pdf">Release Plan</ref>, or <ref target="docs/Four_Quadrants_Activity.pdf">Quadrants</ref>. Pick the one that is most appropriate for your project phase.</ref></item>
                         </list>
                      </ab>
                   </event>
