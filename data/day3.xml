@@ -25,9 +25,10 @@
                   <label>Processing and Products—Doing Things with Data</label>
                   <linkGrp type="furtherReading">
                      <ptr target="bibl:Otis2023"/>
-                     <ptr target="bibl:RisamGil2022"/>
                      <ptr target="bibl:Crompton2023"/>
+                     <ptr target="bibl:RisamGil2022"/>
                      <ptr target="bibl:Pierazzo2019"/>
+                     <ptr target="bibl:HolmesTakeda2019"/>
                   </linkGrp>
                   <event start="09:00" end="10:00">
                      <ab>

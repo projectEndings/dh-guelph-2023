@@ -46,6 +46,9 @@
             <bibl xml:id="Earhart2015">Earhart, Amy. <title level="a">What’s In and What’s Out?</title> <title level="m">Traces of the Old, Uses of the New: The Emergence of Digital Literary Studies</title>, University of Michigan Press, 2015, pp. 62–89. <ptr target="https://doi.org/10.1353/book.43167"/></bibl>
             
             <bibl xml:id="GoddardSeeman2019">Goddard, Lisa, and Dean Seeman. <title level="a">Negotiating Sustainability: Building Digital Humanities Projects that Last</title>. <title level="m">Doing More Digital Humanities: Open Approaches to Creation, Growth, and Development</title>, edited by Constance Crompton, Richard J. Lane, and Ray Siemens, Routledge, 2019, pp. 38–57. <ptr target="https://dx.doi.org/10.4324/9780429353048-4"/></bibl>
+            
+            <bibl xml:id="HolmesTakeda2019">Holmes, Martin, and Joey Takeda. <title level="a">Beyond Validation: Using Programmed Diagnostics to Learn About, Monitor, and Successfully Complete your DH Project</title>. <title level="j">Digital Scholarship in the Humanities</title>, vol. 34, supplement 1, 2019. <ptr target="https://dx.doi.org/10.1093/llc/fqz011"/></bibl>
+            
             <bibl xml:id="Pierazzo2019">Pierazzo, Elena. <title level="a">What Future for Digital Scholarly Editions? From Haute Couture to Prêt-à-Porter</title>. <title level="j">International Journal of Digital Humanities</title>, vol. 1, no. 2, July 2019. <ptr target="https://doi.org/10.1007/s42803-019-00019-3"/></bibl>
             
             <bibl xml:id="RisamGil2022">Risam, Roopika, and Alex Gil. <title level="a">Introduction: The Questions of Minimal Computing</title>. <title level="j">Digital Humanities Quarterly</title>, vol. 16, no. 2, 2022. <ptr target="https://digitalhumanities.org/dhq/vol/16/2/000646/000646.html"/></bibl>
@@ -53,6 +56,8 @@
             <bibl xml:id="Rockwelletal2014">Rockwell, Geoffrey, Shawn Day, Joyce Yu, and Maureen Engel. <title level="a">Burying Dead Projects: Depositing the Globalization Compendium</title>. <title level="j">Digital Humanities Quarterly</title>, vol. 8, no. 2, 2014. <ptr target="https://digitalhumanities.org/dhq/vol/8/2/000179/000179.html"/></bibl>
             
             <bibl xml:id="Stapelfeldt2022">Stapelfeldt, Krista, Sukhvir Khera, Natkeeran Ledchumykanthan, Lara Gomez, Erin Liu, and Sonia Dhaliwal. <title level="a">Strategies for Preserving Digital Scholarship / Humanities Projects</title>. <title level="j">The Code4Lib Journal</title>, no. 53, May 2022. <ptr target="https://journal.code4lib.org/articles/16370"/></bibl>
+            
+            <bibl xml:id="Warwick2009">Warwick, Claire, et al. <title level="a">Documentation and the Users of Digital Resources in the Humanities</title>. <title level="j">Journal of Documentation</title>, vol. 65, no. 1, Jan. 2009, pp. 33–57. <ptr target="https://doi.org/10.1108/00220410910926112"/>.</bibl>
             
             <bibl xml:id="Warwick2022">Warwick, Claire. <title level="a">Interfaces, Ephemera, and Identity: A Study of the Historical Presentation of Digital Humanities Resources</title>. <title level="j">Digital Scholarship in the Humanities</title>, vol. 35, no. 4, Dec. 2022, pp. 944–971. <ptr target="https://doi.org/10.1093/llc/fqz081"/></bibl>
             
