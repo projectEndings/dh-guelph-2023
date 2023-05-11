@@ -40,6 +40,12 @@
                      <ab>
                         <list>
                            <item><ref type="activity">Determing what is already preserved, where it lives, and whether it works</ref></item>
+                           <item>Lists of Projects:</item>
+                           <item><ptr target="http://dhawards.org/dhawards2014/results/"/>
+                           </item>
+                           <item>
+                              <ptr target="https://reviewsindh.pubpub.org/project-registry-a-z"/>
+                           </item>
                         </list>
                      </ab>
                   </event>
