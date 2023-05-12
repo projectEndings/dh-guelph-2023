@@ -24,16 +24,15 @@
                <event type="morning">
                   <label>Processing and Products—Doing Things with Data</label>
                   <linkGrp type="furtherReading">
-                     <ptr target="bibl:Otis2023"/>
                      <ptr target="bibl:Crompton2023"/>
+                     <ptr target="bibl:Flanders2023"/>
                      <ptr target="bibl:RisamGil2022"/>
                      <ptr target="bibl:Pierazzo2019"/>
-                     <ptr target="bibl:HolmesTakeda2019"/>
                   </linkGrp>
                   <event start="09:00" end="10:00">
                      <ab>
                         <list>
-                           <item><ref type="presentation">What are Static Sites?</ref></item>
+                           <item><ref type="presentation" target="docs/presentations/products_processing.html">What are Static Sites?</ref></item>
                            <item><ref type="activity">Investigating graceful failure: What happens when Javascript is turned off?</ref></item>
                            
                         </list>
@@ -45,7 +44,7 @@
                   <event start="10:15" end="11:00">
                      <ab>
                         <list>
-                           <item><ref type="presentation">Digital Dependencies, or Hell is Other Servers</ref></item>
+                           <item><ref type="presentation" target="docs/presentations/dependencies.html">Digital Dependencies, or Hell is Other Servers</ref></item>
                            <item><ref type="activity">Enumerating your dependencies: On whom do you depend?</ref></item>
                         </list>
                      </ab>
@@ -61,7 +60,9 @@
                <event type="afternoon">
                   <label>Getting Ready to End Your Project</label>
                   <linkGrp>
+                     <ptr target="bibl:Otis2023"/>
                      <ptr target="bibl:GoddardSeeman2019"/>
+                     <ptr target="bibl:HolmesTakeda2019"/>
                   </linkGrp>
                   <event start="13:30" end="14:45">
                      <ab>
