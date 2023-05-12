@@ -136,6 +136,41 @@
         </h4>
     </xsl:template>
     
+    <xsl:template match="divGen[@xml:id='presentations']" mode="tei">
+        <section class="divGen">
+            <h4>Presentations</h4>
+            <xsl:call-template name="refList">
+                <xsl:with-param name="refs" select="$data//ref[@type='presentation']"/>
+            </xsl:call-template>
+        </section>
+    </xsl:template>
+    
+    <xsl:template match="divGen[@xml:id='handouts']" mode="tei">
+        <section class="divGen">
+            <h4>Handouts</h4>
+            <xsl:call-template name="refList">
+                <xsl:with-param name="refs" select="$data//ref[@type='handout']"/>
+            </xsl:call-template>
+        </section>
+    </xsl:template>
+    
+    <xsl:template name="refList">
+        <xsl:param name="refs" as="element(ref)+"/>
+        <div role="list">
+            <xsl:for-each select="$refs">
+                <xsl:sort select="ancestor::TEI/@xml:id"/>
+                <xsl:variable name="curr" select="." as="element(ref)"/>
+                <div role="list-item">
+                    <xsl:apply-templates select="." mode="#current"/>
+                    (<a href="{ancestor::TEI/@xml:id}.html">
+                        <xsl:value-of select="ancestor::event[last()]/label || ': ' || ancestor::event[label][1]/label"/>
+                    </a>)
+                </div>
+            </xsl:for-each>
+        </div>
+    </xsl:template>
+    
+    
     <xsl:template match="linkGrp/ptr" mode="tei">
         <xsl:variable name="ID" select="substring-after(@target,'bibl:')"/>
         <xsl:variable name="bibl" select="$data//bibl[@xml:id = $ID]"/>

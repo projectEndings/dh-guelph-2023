@@ -18,6 +18,9 @@
   </teiHeader>
   <text>
       <body>
+         <divGen xml:id="presentations"/>
+         <divGen xml:id="handouts"/>
+         
          <listBibl>
             <head>Selections from DHQ special issue on Project Resiliency (forthcoming)</head>
             <bibl xml:id="HolmesJenstadHuculak2023">Holmes, Martin, Janelle Jenstad, and J. Matthew Huculak. <title level="a">Introduction to Special Issue: Project Resiliency in the Digital Humanities</title>. <ref target="docs/DHQ_Holmes_Jenstad_Huculak.pdf">Preprint</ref></bibl>

@@ -16,7 +16,7 @@
             <xd:p></xd:p>
         </xd:desc>
     </xd:doc>
-    
+
     <xsl:mode name="original" on-no-match="shallow-copy"/>
     
     <xsl:template name="makeOriginalXml">
@@ -25,6 +25,9 @@
             <xsl:apply-templates select="." mode="original"/>
         </xsl:result-document>
     </xsl:template>
+    
+    
+   
     
     <xd:doc>
         <xd:desc>Resolve any imports via @copyOf</xd:desc>

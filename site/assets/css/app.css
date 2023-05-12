@@ -80,11 +80,17 @@ details > summary{
     font-weight:bold;
 }
 
+
 a[data-type]:before{
     content: attr(data-type) ': ';
     text-transform:uppercase;
     color: var(--grey);
     font-size: 0.9em;
+}
+
+
+.divGen a[data-type]:before{
+    content: unset;
 }
 
 .title.title-m,
