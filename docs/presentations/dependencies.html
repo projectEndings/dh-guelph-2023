@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <title>DH@Guelph 2023: Processing and Products Presentation</title>
+        <link rel="stylesheet" href="./css/presentation.css" />
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section>
+                    <h3>Dependencies</h3>
+                    <hr />
+                    <p>Joey Takeda (with thanks to Stewart Arneil and the Endings Team)</p>
+                    <p>DH@Guelph 2023</p>
+                </section>
+
+                <section>
+                    <h3>What do we mean by dependency?</h3>
+                    <ul>
+                        <li class="fragment">Something outside of your control but on which you
+                            depend</li>
+                        <li class="fragment">Some dependencies in life are unavoidable (air, for
+                            instance)</li>
+                        <li class="fragment">But others are</li>
+                        <li class="fragment">And we employ mitigation strategies all the time:
+                            charging your laptop in case you forget your charger</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>External Dependencies</h3>
+                    <ul>
+                        <li class="fragment">Resources that promise to stay around and/or continue
+                            working</li>
+                        <li class="fragment">Digital dependencies are liable to disappear, break
+                            down, change their terms, et cetera</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>Google Maps</h3>
+                    <img src="img/google_maps.png" />
+                </section>
+
+                <section>
+                    <h3>Hell is other servers</h3>
+                    <p>
+                        <img style="margin:0 auto" src="img/sarte.jpeg" />
+                    </p>
+                </section>
+
+                <section>
+                    <h3>But I thought you said static sites don't depend on servers?</h3>
+                    <ul>
+                        <li class="fragment">External images, videos, external data</li>
+                        <li class="fragment">Search</li>
+                        <li class="fragment">Javascript libraries for functionality (and
+                            increasingly so (with disastrous results) -- the left pad fiasco</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>But some dependencies are unavoidable</h3>
+                    <ul>
+                        <li class="fragment">Complex functionality (mapping, cryptography, image
+                            viewing)</li>
+                        <li class="fragment">Established standards, functionality, or user
+                            expectation</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>Choosing Wisely (S. Arneil)</h3>
+                    <table class="table r-fit-text">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Unwise</th>
+                                <th>Wise</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th> Thought put in</th>
+                                <td>Unwitting, casual</td>
+                                <td> Conscious </td>
+                            </tr>
+
+                            <tr>
+                                <th>Number</th>
+                                <td>Many, varied</td>
+                                <td> None or few</td>
+                            </tr>
+                            <tr>
+                                <th>Legal, terms issues</th>
+                                <td>Yes or commercial</td>
+                                <td> No or open source</td>
+                            </tr>
+                            <tr>
+                                <th>Own dependencies</th>
+                                <td>Yes, poor ones</td>
+                                <td> No or wise ones</td>
+                            </tr>
+                            <tr>
+                                <th>Provider</th>
+                                <td>Unreliable</td>
+                                <td>Reliable</td>
+                            </tr>
+                            <tr>
+                                <th>Documentation</th>
+                                <td>Absent, incomplete</td>
+                                <td>Thorough</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </section>
+                <section>
+                    <h3>Choosing Wisely (S. Arneil)</h3>
+                    <table class="r-fit-text">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Unwise</th>
+                                <th>Wise</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Feature importance</th>
+                                <td>Minor</td>
+                                <td> Critical</td>
+                            </tr>
+                            <tr>
+                                <th> Replaceable</th>
+                                <td>Yes</td>
+                                <td> No or at high cost</td>
+                            </tr>
+                            <tr>
+                                <th>Effect of failure</th>
+                                <td>Major or widespread</td>
+                                <td> Minor or contained</td>
+                            </tr>
+                            <tr>
+                                <th>Time</th>
+                                <td>Indefinite</td>
+                                <td> Limited</td>
+                            </tr>
+                            <tr>
+                                <th>Supportable</th>
+                                <td>No</td>
+                                <td> Yes</td>
+                            </tr>
+                            <tr>
+                                <th>Thought put in</th>
+                                <td>Unwitting, casual</td>
+                                <td> Conscious</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                <section>
+                    <h3>Managing Dependencies</h3>
+                    <ul>
+                        <li class="fragment">Embrace short-term pain for long-term gain</li>
+                        <li class="fragment">Align risk with resources</li>
+
+                    </ul>
+                </section>
+                <section>
+                    <h3>Sample Dependencies</h3>
+                    <table class="r-fit-text table-bordered">
+                        <tbody>
+                            <tr>
+                                <th>Purpose </th>
+                                <td> Blog comments </td>
+                                <td> Timeline </td>
+                                <td> Interactive Map </td>
+                            </tr>
+                            <tr>
+                                <th>Using </th>
+                                <td> WordPress </td>
+                                <td> JQuery add-on </td>
+                                <td> GoogleMaps </td>
+                            </tr>
+                            <tr>
+                                <th>Legal/terms </th>
+                                <td> No </td>
+                                <td> No </td>
+                                <td> Yes </td>
+                            </tr>
+                            <tr>
+                                <th>Dependencies </th>
+                                <td> Yes, sql + php </td>
+                                <td> Yes, jquery + js </td>
+                                <td> Yes, tileserver </td>
+                            </tr>
+                            <tr>
+                                <th>Provider </th>
+                                <td> Reliable,?plugin </td>
+                                <td> ?addon, reliable </td>
+                                <td> Opinion varies </td>
+                            </tr>
+                            <tr>
+                                <th>Documentation </th>
+                                <td> Good </td>
+                                <td> Good </td>
+                                <td> Good </td>
+                            </tr>
+                            <tr>
+                                <th>Feature impact </th>
+                                <td/>
+                                <td/>
+                                <td/>
+                            </tr>
+                            <tr>
+                                <th>Replaceable </th>
+                                <td/>
+                                <td/>
+                                <td/>
+                            </tr>
+                            <tr>
+                                <th>Effect of fail </th>
+                                <td/>
+                                <td/>
+                                <td/>
+                            </tr>
+                            <tr>
+                                <th>Duration </th>
+                                <td/>
+                                <td/>
+                                <td/>
+                            </tr>
+                            <tr>
+                                <th>Supportable </th>
+                                <td/>
+                                <td/>
+                                <td/>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                
+                <section>
+                    <h3>How to Determine Dependability (aka Digital Peer Review)</h3>
+                    <ul>
+                        <li class="fragment">Who wrote it? Do you trust the developer, institution, organiation?</li>
+                        <li class="fragment">Does it have any dependencies?</li>
+                        <li class="fragment">How frequently updated?
+                            How responsive are the developers?</li>
+                        <li class="fragment">When was the last release?</li>
+                        <li class="fragment">How well is it documented?</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h3>Comparison Exercise</h3>
+                </section>
+                
+                <section>
+                    <h3>Dependencies Beyond Code</h3>
+                    <ul>
+                        <li class="fragment">Note that dependencies are not just technical -- they are also social, infrastructural, institutional</li>
+                        <li class="fragment">You lose access to a server; your computer dies; the archive loses funding</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h3>Enumerate Your Dependencies</h3>
+                    <ul>
+                        <li class="fragment">On whom do you depend? Archivists, developers, contributors, PIs?</li>
+                        <li class="fragment">On what do you depend? A web server, a mapping library, an image slider?</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h3>(If Time)</h3>
+                    <ul>
+                        <li class="fragment">Think of a feature you may want on a project, and look it up on GitHub -- what do you find? What can you learn about it?</li>
+                    </ul>
+                </section>
+
+
+            </div>
+        </div>
+        <script type="module" src="./js/presentation.js"><!--Keep open--></script>
+    </body>
+</html>

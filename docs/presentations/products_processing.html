@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>DH@Guelph 2023: Processing and Products Presentation</title>
+    <link rel="stylesheet" href="./css/presentation.css"/>
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+        <section>
+            <h3>Processing and Products</h3>
+            <hr/>
+            <p>DH@Guelph 2023</p>
+        </section>
+        
+        <section>
+            <h3>Key Terms</h3>
+            <ul>
+                <li class="fragment">HTML (HyperText Markup Language): The text format that underlies every website (i.e. the content and structure -- a paragraph, a heading)</li>
+                <li class="fragment">CSS (Cascading Stylesheets): The formatting for your website (i.e. paragraphs should have a blue border; headings should be in 30pt font) </li>
+                <li class="fragment">JavaScript (JS): The added functionality for your website (i.e. clicking a button should make a popup; zooming images; maps)</li>
+                <li class="fragment">All of these run in the browser*</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h3>Key Terms</h3>
+            <ul>
+                <li class="fragment">Building: The conversion from source data to HTML</li>
+                <li class="fragment">Server: The external place where a website is available via the internet</li>
+                <li class="fragment">Hosting: The agency responsible for the server</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h3>What Appears To Happen</h3>
+            <img src="img/server-simple.png"/>
+        </section>
+        
+        <section>
+            <h3>What Actually (Usually) Happens</h3>
+            <img src="img/server-diagram.png"/>
+        </section>
+        
+        <section>
+            <h3>Static Websites</h3>
+            <ul>
+                <li class="fragment">No on-the-fly server side processing</li>
+                <li class="fragment">HTML + CSS + JS</li>
+            </ul>
+            <cite class="fragment">In WebDev, also known as <a href="https://jamstack.org/">Jamstack</a></cite>
+        </section>
+        
+        <section>
+            <h3>How Static Websites Work</h3>
+            <img src="img/static-site.png"/>
+        </section>
+        
+        <section>
+            <h3>But Why?</h3>
+            <ul>
+                <li class="fragment">HTML + JS + CSS are standards</li>
+                <li class="fragment">We can feel confident that they will persist</li>
+                <li class="fragment">Computational power is 
+                    available to do this simply</li>
+                <li class="fragment">Set it and forget it!</li>
+            </ul>
+        </section>
+        
+        
+        <section data-background-iframe="http://info.cern.ch/hypertext/WWW/TheProject.html">
+            <div class="fragment fade-out">
+                <p>CERN: The First Website (it still works!)</p>
+                <p>http://info.cern.ch/hypertext/WWW/TheProject.html</p>
+            </div>
+        </section>
+        
+
+        
+        
+        <!--Section on MinComp-->
+        <section class="animated">
+            <p>Minimal Computing<span data-id="ne" style="font-size:1px; opacity:0;"><span class="codelike">!=</span> Minimal<i>ist</i> Computing</span></p>
+        </section>
+        
+        <section data-background-image="img/kondo.png" class="animated">
+            <p>Minimal Computing<span data-id="ne" class="visible"><span class="codelike">!=</span> Minimal<i>ist</i> Computing</span></p>
+        </section>
+        
+        <section data-background-image="img/gil-bg.png" data-background-position="top">
+            
+        </section>
+        
+        <section data-state="blur" data-background-image="img/gil-bg.png" data-background-position="top">
+            <div style="padding: 2rem 1rem">
+                <blockquote>
+                    I prefer to approach minimal computing around the question “What do we need?” If we do so,
+                    our orientations vis-a-vis ease of use, ease of creation, increased access and reductions in computing—and by extension,
+                    electricity—become clearer.
+                </blockquote>
+                <cite>Alex Gil, "The User, the Learner and the Machines We Make"</cite>
+            </div>
+        </section>
+        
+        <section>
+            <ul>
+                <li class="fragment">What do we need? (Gil)</li>
+                <li class="fragment">What <em>don't</em> we need? (Sayers)</li>
+                <li class="fragment">What can we preserve? (Endings)</li>
+            </ul>
+        </section>
+        
+        <section>
+            <ul>
+                <li class="fragment">Who uses it?</li>
+                <li class="fragment">Who builds it?</li>
+                <li class="fragment">Who maintains it?</li>
+                <li class="fragment">Who archives it?</li>
+                <li class="fragment">Who benefits?</li>
+                <li class="fragment">Who doesn't?</li>
+            </ul>
+        </section>
+        
+        <section>
+            <p>Minimal computing = a set of concerns surrounding: </p>
+            <ul>
+                <li class="fragment">Sustainability</li>
+                <li class="fragment">Usability</li>
+                <li class="fragment">Maintainability</li>
+            </ul>
+        </section>
+        
+        <section>
+            <div style="margin-bottom:20px;">Jentery Sayers, "<a href="http://go-dh.github.io/mincomp/thoughts/2016/10/03/tldr/">Minimal Definitions: tl;dr</a>"</div>
+            <div class="big-list">
+                <p>
+                    <span class="heading">Minimal Design</span>
+                    <span class="content">Reduce the need to update/modify the structure or layout of a project
+                        in order to focus on content production and to increase the likelihood of project
+                        persistence</span>
+                </p>
+                <p>
+                    <span class="heading">Minimalist Design</span>
+                    <span class="content">Reduce the use of features to highlight a project's fundamental
+                        components across platforms/devices</span>
+                </p>
+                <p>
+                    <span class="heading">Minimal WYSIWYG</span>
+                    <span class="content">Reduce the use of What You See Is What You Get (WYSIWYG) interfaces to
+                        decrease resource demands, increase awareness of programming and markup processes, and
+                        also increase individual focus on writing</span>
+                </p>
+                <p>
+                    <span class="heading">Minimal Dependencies</span>
+                    <span class="content">Reduce reliance on scripts, databases, libraries, versions, and
+                        software to decrease resource demands and processing time</span>
+                </p>
+                <p>
+                    <span class="heading">Minimal Maintenance</span>
+                    <span class="content">Reduce dependencies and the use of features to decrease the labor of
+                        updating, moderating, and stewarding a project over time</span>
+                </p>
+                <p>
+                    <span class="heading">Maximum Ephemerality</span>
+                    <span class="content">Reduce an impulse to inscribe, measure, or visualize with technologies
+                        in order to increase the likelihood of experimentation and collective
+                        participation</span>
+                </p>
+                <p>
+                    <span class="heading">Minimal Use</span>
+                    <span class="content">Reduce the use of natural resources and technologies (especially
+                        hardware, middleware, and peripherals) to decrease environmental effects and energy
+                        consumption</span>
+                </p>
+                <p>
+                    <span class="heading">Minimal Consumption</span>
+                    <span class="content">Reduce arguments premised on technological progress, the early
+                        adoption/implementation of technologies, and the treatment of computing as work (to
+                        create products) in order to increase deliberation, thoroughness of research, and the
+                        likelihood of informed decisions</span>
+                </p>
+                <p>
+                    <span class="heading">Minimal Obsolescence</span>
+                    <span class="content">Reduce turnover of technologies, standards, and formats to increase
+                        reuse and decrease waste/discards</span>
+                </p>
+                <p>
+                    <span class="heading">Minimal Presence</span>
+                    <span class="content">Reduce the use of laptops, desktops, and other computers in order to
+                        prototype with low-tech materials (clay, paper, pencils), decrease reliance on
+                        automation, and increase comparative studies (across digital and analog media)</span>
+                </p>
+                <p>
+                    <span class="heading">Minimal Visibility</span>
+                    <span class="content">Reduce the perceived intervention of technologies to facilitate
+                        interaction as well as the production/extraction of data from those
+                        interactions/behaviors (Internet of Things)</span>
+                </p>
+                <p>
+                    <span class="heading">Maximum Access</span>
+                    <span class="content">Reduce the use of proprietary technologies and paywalls to increase
+                        access to content, data, and/or source files</span>
+                </p>
+                <p>
+                    <span class="heading">Maximum Accessibility</span>
+                    <span class="content">Through shared guidelines and frequent user testing, reduce the use of
+                        features that are difficult to see, read, hear, translate, use, navigate, process,
+                        store, or find toward access by everyone and to also increase the overall quality and
+                        consistency of projects</span>
+                </p>
+                <p>
+                    <span class="heading">Maximum Justice</span>
+                    <span class="content">Reduce the use of technological, cultural, social, and economic
+                        barriers to increase entry, access, participation, and self-representation in computing
+                        and to also build systems/projects premised on social justice and difference, not white
+                        supremacy and settler colonialism</span>
+                </p>
+                <p>
+                    <span class="heading">Minimal Learning Curve</span>
+                    <span class="content">Reduce the experience assumed or required to participate in computing
+                        and technological work</span>
+                </p>
+                <p>
+                    <span class="heading">Maximum Negotiation</span>
+                    <span class="content">Reduce the rigidity of form, composition, and use to increase the
+                        personalization, adaptability, responsiveness, and/or robustness of technologies</span>
+                </p>
+                <p>
+                    <span class="heading">Minimal Internet</span>
+                    <span class="content">Reduce reliance on the internet for communication, exchange, and
+                        participation to account for or privilege local conditions</span>
+                </p>
+                <p>
+                    <span class="heading">Minimal Connectivity</span>
+                    <span class="content">Reduce or eliminate the default assumption that internet access is
+                        evenly distributed in order to account for material and social conditions of
+                        communications and exchange</span>
+                </p>
+                <p>
+                    <span class="heading">Minimal Surveillance</span>
+                    <span class="content">Reduce the use of sensors, computer vision, cookies, and other
+                        tracking mechanisms to increase privacy and security and to decrease harassment and
+                        hacks</span>
+                </p>
+                <p>
+                    <span class="heading">Minimal Vulnerabilities</span>
+                    <span class="content">Reduce attack vectors (e.g., cross-site scripting, SQL injections, and
+                        directory traversals) of projects to decrease likelihood of hacks and harassment</span>
+                </p>
+                <p>
+                    <span class="heading">Minimal Externals</span>
+                    <span class="content">Reduce dependency on external groups or mechanisms to produce,
+                        exchange, and circulate your own projects and content</span>
+                </p>
+                <p>
+                    <span class="heading">Minimal Automation</span>
+                    <span class="content">Reduce use of mechanisms that (magically) turn input into output in
+                        order to increase awareness of how this becomes that or how algorithms/tools make
+                        decisions</span>
+                </p>
+                <p>
+                    <span class="heading">Minimal Space</span>
+                    <span class="content">Reduce the physical space dedicated to hardware and workstations to
+                        increase the flexible use, variability, and modularity of that space</span>
+                </p>
+                <p>
+                    <span class="heading">Maximum Mobility</span>
+                    <span class="content">Reduce dependency on fixed technologies (e.g., desktops plugged into
+                        walls) to increase movement, performance, and participation across events and
+                        settings</span>
+                </p>
+                <p>
+                    <span class="heading">Minimal Technical Language</span>
+                    <span class="content">Reduce the use of specialized language to increase participation and
+                        engagement with shared technocultural problems</span>
+                </p>
+            </div>
+            
+        </section>
+        
+        <section>
+            <p>Not tied to a particular methodology or technology</p>
+            <p class="fragment">...but people have gravitated toward <em>static websites</em></p> 
+        </section>
+        
+        <section>
+            <h4>How Do People Make Static Sites?</h4>
+            <ul>
+                <li class="fragment">Artistinally (writing them out by hand)</li>
+                <li class="fragment">(But don't do that)</li>
+                <li class="fragment">Exporting from something else</li>
+                <li class="fragment">Using a static site builder</li>
+            </ul>
+        </section>
+        
+        <section>
+            <div class="fragment" style="display:grid; grid-template-columns: repeat(2, 1fr); font-size: 0.9em">
+                <div class="fragment">
+                    <p>Github</p>
+                    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"/>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h4>Github</h4>
+            <ul>
+                <li class="fragment">Broad audience (not just programmers!)</li>
+                <li class="fragment">Free and robust version control</li>
+            </ul>
+            <div class="fragment" style="font-size: 16px; margin-top: 5rem">The library frequently has Github workshops!</div>
+        </section>
+        
+        <section>
+            <h4>Github Pages</h4>
+            <ul>
+                <li class="fragment">Free service on Github available on every repository that hosts and serves your static website (within limits)</li>
+                <li class="fragment">Well documented setup (with many tutorials available)</li>
+                <li class="fragment">Uses <em>Markdown</em> (content) and <em>YAML</em> (metadata)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h4>Markdown</h4>
+            <pre class="fragment">
+                <code class="markdown" style="height: 50vh" data-line-numbers="1-6 | 8-10 | 12-16 | 18-21" data-noescape="true">
+# A single hash is a first level heading
+
+Paragraphs are just written in regular blocks.
+
+New lines make new paragraphs, and you can **emphasize** words for _emphasis_.
+
+## Two hashes is a sub heading
+
+##### Five hashes is a sub-sub-sub-sub-sub heading
+
+Unordered lists are denoted with asterisks:
+ * Parsley
+ * Peppers
+ * Cabbages
+ * Celery
+
+Ordered lists start with a number:
+ 1. The challenge
+ 1. Grab a friend
+ 1. Negotiate a peace
+                </code>
+            </pre>
+
+        </section>
+
+        <section data-background-iframe="html/md.html">
+        </section>
+     
+<!--
+        <section>
+            <h4>YAML</h4>
+            <div>
+                <div class="fragment acronym">
+                    <div><b>Y</b>:</div>
+                    <div>YAML</div>
+                </div>
+
+                <div class="fragment acronym">
+                    <div><b>A</b>:</div>
+                    <div>Ain't</div>
+                </div>
+
+                <div class="fragment acronym">
+                    <div><b>M</b>:</div>
+                    <div>Markup</div>
+                </div>
+
+                <div class="fragment acronym">
+                    <div><b>L</b>:</div>
+                    <div>Language</div>
+                </div>
+            </div>
+
+            </code>
+        </section>
+        <section>
+            <h4>YAML</h4>
+            <pre>
+                    <code class="yaml" data-trim="true" data-noescape="true">
+-\-\-
+title: "Minimal Computing Workshop"
+date: 2020-11-30 11:00:00
+author: Joey Takeda
+-\-\-
+                    </code>
+                </pre>
+            <ul class="fragment">
+                <li class="fragment">Fairly common language for simple metadata</li>
+                <li class="fragment">At its most simple -\-> Key: Value</li>
+                <li class="fragment">Spaces and tabs are important</li>
+                <li class="fragment">Github pages uses a YAML "header" to describe the content of the post</li>
+            </ul>
+        </section>
+        
+        -->
+        
+        <section>
+            <h3>Example projects / DH Themes</h3>
+        </section>
+
+        <section data-background-iframe="https://minicomp.github.io/ed/">
+            <div class="fragment fade-out">
+                <p>Ed: A Jekyll Theme for Minimal Editions</p>
+                <p>https://minicomp.github.io/ed/</p>
+            </div>
+        </section>
+
+        <section>
+            <pre>
+                <code class="markdown">
+---
+layout: poem
+title: Delayed till she had ceased to know
+author: Emily Dickinson
+editor: Alex Gil
+source: "Bartleby.com"
+---
+
+- DELAYED till she had ceased to know,
+- Delayed till in its vest of snow
+- {:.indent-2}Her loving bosom lay.
+- An hour behind the fleeting breath,
+- Later by just an hour than death,—
+- {:.indent-2}Oh, lagging yesterday!
+
+
+- Could she have guessed that it would be;
+- Could but a crier of the glee
+- {:.indent-2}Have climbed the distant hill;
+- Had not the bliss so slow a pace,—
+- Who knows but this surrendered face
+- {:.indent-2}Were undefeated still?
+
+
+- Oh, if there may departing be
+- Any forgot by victory
+- {:.indent-2}In her imperial round,
+- Show them this meek apparelled thing,
+- That could not stop to be a king,
+- {:.indent-2}Doubtful if it be crowned!
+                </code>
+            </pre>
+        </section>
+
+
+
+        <section data-background-iframe="https://minicomp.github.io/wax/">
+            <div class="fragment fade-out">
+                <p>Wax</p>
+                <p>https://minicomp.github.io/wax/</p>
+            </div>
+        </section>
+        <section data-background-iframe="https://collectionbuilder.github.io/">
+            <div class="fragment fade-out">
+                <p>Collection Builder</p>
+                <p>https://collectionbuilder.github.io/</p>
+            </div>
+        </section>
+        
+        <section>
+            <h3>Other Hosts / Cloud Services You Might Hear About</h3>
+            <ul>
+                <li class="fragment">Amazon S3</li>
+                <li class="fragment">Google Azure / Firebase / Sites</li>
+                <li class="fragment">Blue Ocean</li>
+                <li class="fragment">Heruko</li>
+                <li class="fragment">Netlify</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h3>But...</h3>
+            <ul>
+                <li class="fragment">The above *may* cost money (though not necessarily)</li>
+                <li class="fragment">And can be a bit convoluted (lots of features for a lot of different needs)</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h3>Frameworks</h3>
+            <ul>
+                <li class="fragment">You are not bound to any one language, framework, et cetera</li>
+                <li class="fragment">Any language can produce HTML (though some are better than others)</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h3>Some Popular Frameworks</h3>
+            <ul>
+                <li class="fragment">Next.js (JavaScript)</li>
+                <li class="fragment">Eleventy (aka 11ty) (JavaScript)</li>
+                <li class="fragment">Jekyll (Ruby)</li>
+                <li class="fragment">Hugo (JavaScript)</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h3>Resources</h3>
+            <ul>
+                <li>Github Pages: https://pages.github.com/</li>
+                <li>GO::DH MinComp: http://go-dh.github.io/mincomp/</li>
+                <li>Roopika Risam, "Micro DH": https://dh2017.adho.org/abstracts/196/196.pdf</li>
+                <li>The Endings Project: https://endings.uvic.ca</li>
+            </ul>
+        </section>
+    </div>
+</div>
+<script type="module" src="./js/presentation.js"><!--Keep open--></script>
+</body>
+</html>
